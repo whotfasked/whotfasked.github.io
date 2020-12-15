@@ -6,13 +6,13 @@ body {
   margin: 0;
  }
 
-h1 {
+answer {
   text-align: center;
   font-size: 100px;
   color: white;
   text-decoration: none;
 }
-h2 {
+quest {
   text-align: center;
   font-size: 50px;
   color: white;

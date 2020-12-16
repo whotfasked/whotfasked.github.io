@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script type="text/javascript">
+	var test = ['Me searching on the Mount Everest for Who Asked:', "Me hacking the NSA to find Who Asked:", "Me Calling the Aliens behind the Moon to find Who Asked:", "Look i found Who Asked:", "I think in know now who Asked:", "Look, he knows Who Asked:", "Thanks, i know now Who Asked:", "I called Adam and Eva to know Who Asked:", "Finally after hours of research i found Who Asked:", "I gotta go to find Who Asked:", "Me using a Quantum Computer to find Who Asked:", "Theres one unsolved mystery out ther: Who The Fuck asked:", "I gotta go bro, i must call Elon Musk to find Who Asked:", "Yeah, thanks for the call Pluto, now i know Who Asked:", "Wait a minute Bro i must call IBM so i can use theire Quantum Computer to Find out Who the FUCK asked:"];
+	var i = test[Math.floor(Math.random() * test.length)];
+    function rand1() {
+	console.log(i);
+        document.getElementById("q").innerHTML = i;
+    }
+</script>
 <link rel="stylesheet" href="index.css">
 <body style="background-color:black;">
 <title>Who TF Asked?</title>
 </head>
 <body>
-<h1 href="https://eliakessler.ch"><answer>NOBODY</h1>
+<body onload="rand1()">
+<h2><span id="q"></span></h2>
+<h1 href="https://eliakessler.ch"><h1>NOBODY</h1>
 </body>
 </html>

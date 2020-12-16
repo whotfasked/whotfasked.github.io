@@ -1,12 +1,12 @@
-h0 {
-  text-align: center;
-  font-size: 40px;
-  color: white;
-  text-decoration: none;
-}
 h1 {
   text-align: center;
   font-size: 200px;
+  color: white;
+  text-decoration: none;
+}
+h0 {
+  text-align: center;
+  font-size: 40px;
   color: white;
   text-decoration: none;
 }
